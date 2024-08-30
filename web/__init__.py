@@ -18,6 +18,9 @@ def create_app():
     # taking the database and telling it this is the app we are going to use
     db.init_app(app)
 
+    # importing blueprints
+    from .home import home
+
     with app.app_context():
         db.create_all()
 
