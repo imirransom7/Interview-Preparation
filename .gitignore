@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# ocnfig file with sensitve information
+# config file with sensitve information
 config.py
 
 # C extensions
