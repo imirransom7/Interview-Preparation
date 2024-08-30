@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# ocnfig file with sensitve information
+config.py
+
 # C extensions
 *.so
 
@@ -154,8 +157,7 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-# ocnfig file with sensitve information
-config.py
+
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
