@@ -1,5 +1,7 @@
 technical_questions = {
-    'id': [0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+    'id': [
+        0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25
+           ],
     'question': [
         'What is Polymorphism?',
         'What is a fibonacci series?',
@@ -22,6 +24,11 @@ technical_questions = {
         'What are Tuples?',
         'What is a dictionary?',
         'What is a set?',
+        'What is a list comprehension?',
+        'What is the "with" statement designed for?',
+        'What is Try, Except in Python?',
+        'What does the else block do in a try/except clause?',
+        'What does the finally block do in a try/except clause?'
     ],
     'answer': [
         'many forms;  methods/functions/operators with the same name that can be executed on many objects or classes\
@@ -65,7 +72,11 @@ technical_questions = {
         and earlier, dictionaries are unordered), changeable and do not allow duplicates for the keys',
         'a data collection type used in Python for storing multiple items in a single variable; sets are unordered.\
         These are generally used when you do not want a repeat of data',
-
-
+        'a one-liner that is able to create a new list based on values from an existing list',
+        'it is typically used for the management of opening, creating, editing, and saving a file',
+        'the try block lets you test a block of code for errors and the except block lets you handle the error.',
+        'the else block lets you execute code when there is no error.',
+        'the finally block lets you execute code, regardless of the result of the try- and except blocks',
+        ''
     ]
 }
