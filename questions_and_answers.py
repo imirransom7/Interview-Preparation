@@ -1,6 +1,6 @@
 technical_questions = {
     'id': [
-        0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26
+        0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27
            ],
     'question': [
         'What is Polymorphism?',
@@ -13,13 +13,13 @@ technical_questions = {
         'What is Full Join?',
         'Explain the process of a user visiting a web page. What HTTP methods are involved?',
         'What are your thoughts on declarative vs. imperative paradigms?',
-        'What is OOP?'
-        'What are the 4 pillars of OOP?'
-        'What is Abstraction?'
-        'What is Inheritance?'
-        'What is Encapsulation?'
-        'What is functional programming?'
-        'What are you thoughts functional and object-oriented programming?'
+        'What is OOP?',
+        'What are the 4 pillars of OOP?',
+        'What is Abstraction?',
+        'What is Inheritance?',
+        'What is Encapsulation?',
+        'What is functional programming?',
+        'What are you thoughts functional and object-oriented programming?',
         'What are list?',
         'What are Tuples?',
         'What is a dictionary?',
