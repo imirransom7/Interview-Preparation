@@ -1,6 +1,6 @@
 technical_questions = {
     'id': [
-        0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25
+        0, 1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26
            ],
     'question': [
         'What is Polymorphism?',
@@ -28,7 +28,9 @@ technical_questions = {
         'What is the "with" statement designed for?',
         'What is Try, Except in Python?',
         'What does the else block do in a try/except clause?',
-        'What does the finally block do in a try/except clause?'
+        'What does the finally block do in a try/except clause?',
+        'What are decorators in Python?',
+        'What are the advantages of NumPy over regular Python lists?'
     ],
     'answer': [
         'many forms;  methods/functions/operators with the same name that can be executed on many objects or classes\
@@ -77,6 +79,9 @@ technical_questions = {
         'the try block lets you test a block of code for errors and the except block lets you handle the error.',
         'the else block lets you execute code when there is no error.',
         'the finally block lets you execute code, regardless of the result of the try- and except blocks',
-        ''
+        'design pattern that adds new functionality to an existing object without modifying its structure; used to\
+        extend the behavior of functions or methods',
+        'numpy arrays use less memory, are faster at performing operations and they offer simple array multiple,\
+        addition, and a lot more built-in functionality'
     ]
 }
