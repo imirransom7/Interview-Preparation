@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 from os import path
 
 # initializing database
-db = SQLAlchemy
+db = SQLAlchemy()
 
 # Initializing Flask
 def create_app():
