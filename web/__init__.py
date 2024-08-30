@@ -1,6 +1,10 @@
 from config import *
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
+import pymysql
+
+# adding this line to tell SQLAlchemy to use PyMySQL instead of MySQLdb()
+pymysql.install_as_MySQLdb()
 from os import path
 
 # initializing database
