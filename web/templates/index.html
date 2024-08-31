@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}My Anime App{% endblock %}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/31c9f93257.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body class="text-white">
+    <style type="text/css">
+        body { background: #000000 !important;}
+    </style>
+
+    <nav class="navbar navbar-light bg-light">
+  <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Navigation Hub</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/anime">All Questions</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Behavioral Questions</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+           aria-haspopup="true" aria-expanded="false">
+          Genres
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="/anime-most-popular">Most Popular</a>
+          <a class="dropdown-item" href="/anime/highest-rated">Highest Rated</a>
+            <a class="dropdown-item" href="/analytics">Analytics</a>
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Adventure</a>
+          <a class="dropdown-item" href="#">Comedy</a>
+          <a class="dropdown-item" href="#">Drama</a>
+          <a class="dropdown-item" href="#">Ecchi</a>
+          <a class="dropdown-item" href="#">Fantasy</a>
+          <a class="dropdown-item" href="#">Horror</a>
+          <a class="dropdown-item" href="#">Mystery</a>
+          <a class="dropdown-item" href="#">Romance</a>
+          <a class="dropdown-item" href="#">Sci-Fi</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
+
+  <footer class="text-center text-lg-start text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row my-4">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+          <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
+            <img src="https://gifdb.com/images/high/galaxy-gurren-lagann-simon-awl6r99ut5srfu7b.gif" height="120" alt=""
+                 loading="lazy" />
+          </div>
+
+          <p class="text-center">Anime recommendation system made to get you to watch YOUR anime</p>
+            <br>
+          <p>Connect with my on my socials!</p>
+
+          <ul class="list-unstyled d-flex flex-row justify-content-center">
+            <li>
+              <a class="text-white px-2" href="https://github.com/imirransom7/Anime-Recommendation-App">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a class="text-white ps-2" href="https://www.linkedin.com/in/imir-ransom/">
+                <i class="bg-light fab fa-linkedin" style="color: #0b7bd0"></i>
+              </a>
+            </li>
+            <li>
+              <a class="text-white px-2" href="#!">
+                <i class="bg-primary fab fa-facebook-square"></i>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0" align="left">
+          <h5 class="text-uppercase mb-4 font-weight-bolder">Genres</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="/anime-most-popular" class="text-white"><i class="fa-solid fa-chart-line" style="color: purple"></i> Most Popular</a>
+            </li>
+            <li class="mb-2">
+              <a href="/anime/highest-rated" class="text-white"><i class="fa-solid fa-fire" style="color: orange"></i> Highest Rated</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fa-solid fa-person-rifle" style="color: #5fec22"></i> Action</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fa-brands fa-space-awesome" style="color: red"></i> Adventure</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fa-solid fa-masks-theater" style="color: magenta"></i> Comedy</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fa-solid fa-person-harassing" style="color: blue"></i> Drama</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fa-solid fa-face-grin-tongue-squint" style="color: hotpink"></i> Ecchi</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fa-solid fa-dragon" style="color: green"></i> Fantasy</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fa-solid fa-ghost" style="color: lightblue"></i> Horror</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fa-solid fa-magnifying-glass" style="color: indigo"></i> Mystery</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fa-solid fa-face-kiss-wink-heart" style="color: gold"></i> Romance</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fa-solid fa-robot" style="color: silver"></i> Sci-Fi</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0" align="left">
+          <h5 class="text-uppercase mb-4 font-weight-bolder">Info</h5>
+
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fa-solid fa-book" style="color: brown"></i> General information</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fa-solid fa-wand-sparkles" style="color: gold"></i> About anime</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fa-solid fa-chart-column" style="color: blue"></i> Statistical data</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fa-solid fa-briefcase" style="color: tan"></i> Job</a>
+            </li>
+            <li class="mb-2">
+              <a href="#!" class="text-white"><i class="fa-solid fa-address-book" style="color: yellow"></i> Contact</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0" align="left">
+          <h5 class="text-uppercase mb-4 font-weight-bolder">Contact</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <p><i class="fas fa-map-marker-alt pe-2" style="color: lightblue"></i> 1007 N. Orange Street, Fourth Floor Wilmington, DE 19801</p>
+            </li>
+            <li>
+              <p><i class="fas fa-phone pe-2" style="color: green"></i> + 01 302-256-5203</p>
+            </li>
+            <li>
+              <p><i class="bg-danger fas fa-envelope pe-2 mb-0"></i> imirransom7@gmail.com</p>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+</div>
+<!-- End of .container -->
+    </body>
+</html>

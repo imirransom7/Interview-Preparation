@@ -2,8 +2,9 @@ from flask import Blueprint
 from flask import render_template
 
 # defining this file as the blueprint of the application
-home = Blueprint('home', __name__)
+views = Blueprint('views', __name__)
 
-@home.route('/')
-def views():
-    return render_template('')
+
+@views.route('/')
+def home():
+    return render_template('index.html')

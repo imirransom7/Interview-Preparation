@@ -23,7 +23,7 @@ def create_app():
     db.init_app(app)
 
     # importing blueprints
-    from .home import home
+    from .views import views
 
     with app.app_context():
         db.create_all()
