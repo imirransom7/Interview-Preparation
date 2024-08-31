@@ -1,6 +1,6 @@
 technical_questions = {
     '_id': [
-        0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27
+        0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
            ],
     'question': [
         'What is Polymorphism?',
@@ -30,7 +30,9 @@ technical_questions = {
         'What does the else block do in a try/except clause?',
         'What does the finally block do in a try/except clause?',
         'What are decorators in Python?',
-        'What are the advantages of NumPy over regular Python lists?'
+        'What are the advantages of NumPy over regular Python lists?',
+        'What are the different types of tests you are familiar with?',
+        'Can you explain Kubernetes'
     ],
     'answer': [
         'many forms;  methods/functions/operators with the same name that can be executed on many objects or classes\
@@ -82,6 +84,9 @@ technical_questions = {
         'design pattern that adds new functionality to an existing object without modifying its structure; used to\
         extend the behavior of functions or methods',
         'numpy arrays use less memory, are faster at performing operations and they offer simple array multiple,\
-        addition, and a lot more built-in functionality'
+        addition, and a lot more built-in functionality',
+        'Unit testing and manual testing',
+        'an open source system for automating deployment, scaling, and management of containerized applications. It\
+        automates many of the tasks involved in managing containers'
     ]
 }
