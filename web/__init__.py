@@ -25,6 +25,9 @@ def create_app():
     # importing blueprints
     from .views import views
 
+    # registering blueprints
+    app.register_blueprint(views, url_prefix='/')
+
     with app.app_context():
         db.create_all()
 
