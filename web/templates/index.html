@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -48,16 +48,24 @@
   </div>
 </nav>
 
+  <div class="col my-3">
+    <h3 class="Display-1 fst-italic">InterPrep</h3>
+  </div>
 <div class="container my-5">
   <div  align="center">
      <h1
-       class="text-center Display-3 font-weight-bolder">Inter-Prep!
-       <br>
-       <h3>
-         This will house a bunch of interview questions to help prepare me for my interview! To help me prepare, please
-         select one of the three options.
-       </h3>
+       <p style="font-family: sans-serif-menlo"><span style="font-size: 50px">
+         This is where we put the <span style="font-style: italic">inter </span>in interview,
+         and <span style="font-style: italic">prep</span> in preparation.</span></p>
+
+       <h5>
+         There are three options to choose from. Either focus on technical or behavioral, or do everything, everywhere, all at once!
+       </h5>
      </h1>
+<hr class="border border-primary border-3 opacity-75">
+
+      <br>
+
   </div>
 </div>
 </div>
@@ -70,8 +78,8 @@
       <div class="card bg-dark text-center" style="width: 19rem;">
         <img src="{{ url_for('static', filename='images/behavioral.png') }}" height="270" width="302">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="card-title">BEHAVIORAL</h5>
+          <p class="card-text">Practice only behavioral questions.</p>
             <div align="center">
               <a href="#" class="btn btn-primary">Behavioral Questions</a>
             </div>
@@ -84,8 +92,8 @@
       <div class="card bg-dark text-center" style="width: 19rem;">
         <img src="{{ url_for('static', filename='images/everything.jpg') }}" height="270" width="302">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="card-title">ALL QUESTIONS</h5>
+          <p class="card-text">Jump in and do both technical and behavioral!</p>
             <div align="center">
               <a href="#" class="btn btn-primary">All Questions</a>
             </div>
@@ -99,7 +107,7 @@
         <img src="{{ url_for('static', filename='images/technical.jpg') }}" height="270" width="302">
         <div class="card-body">
           <h5 class="card-title">TECHNICAL</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text">Get some practice with just the technical side of the interview</p>
             <div align="center">
               <a href="#" class="btn btn-primary">Technical Questions</a>
             </div>
@@ -110,7 +118,12 @@
   </div>
 </div>
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <!--<iframe src="https://giphy.com/embed/cT5gKT412jHqw" width="480" height="269" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/work-online-home-cT5gKT412jHqw">via GIPHY</a></p>-->
 <!--<img src="{{ url_for('static', filename='images/student_studying.png') }}" height="300" width="300">-->
 
