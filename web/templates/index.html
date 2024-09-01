@@ -57,11 +57,10 @@
        <p style="font-family: sans-serif-menlo"><span style="font-size: 50px">
          This is where we put the <span style="font-style: italic">inter </span>in interview,
          and <span style="font-style: italic">prep</span> in preparation.</span></p>
+      </h1>
+<br><br><br><br>
 
-       <h5>
-         There are three options to choose from. Either focus on technical or behavioral, or do everything, everywhere, all at once!
-       </h5>
-     </h1>
+
 <hr class="border border-primary border-3 opacity-75">
 
       <br>
@@ -72,36 +71,35 @@
 
 
 <div class="container my-5">
-  <div class="row my-4">
+
     <!-- First card -->
-    <div class="col-4">
-      <div class="card bg-dark text-center" style="width: 19rem;">
-        <img src="{{ url_for('static', filename='images/behavioral.png') }}" height="270" width="302">
-        <div class="card-body">
-          <h5 class="card-title">BEHAVIORAL</h5>
-          <p class="card-text">Practice only behavioral questions.</p>
-            <div align="center">
-              <a href="#" class="btn btn-primary">Behavioral Questions</a>
-            </div>
+    <div class="row my-4">
+  <!-- First card (on the left) -->
+  <div class="col-md-4">
+    <div class="card bg-dark text-center" style="width: 19rem;">
+      <img src="{{ url_for('static', filename='images/behavioral.png') }}" height="270" width="302" class="card-img-top" alt="Behavioral">
+      <div class="card-body">
+        <h5 class="card-title">BEHAVIORAL</h5>
+        <p class="card-text">Practice only behavioral questions.</p>
+        <div align="center">
+          <a href="#" class="btn btn-primary">Behavioral Questions</a>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Second card -->
-    <div class="col-4">
-      <div class="card bg-dark text-center" style="width: 19rem;">
-        <img src="{{ url_for('static', filename='images/everything.jpg') }}" height="270" width="302">
-        <div class="card-body">
-          <h5 class="card-title">ALL QUESTIONS</h5>
-          <p class="card-text">Jump in and do both technical and behavioral!</p>
-            <div align="center">
-              <a href="#" class="btn btn-primary">All Questions</a>
-            </div>
-        </div>
-      </div>
-    </div>
+  <!-- Text (on the right) -->
+  <div class="col-md-8 d-flex align-items-center">
+    <p class="text-center">
+      When choosing behavioral, there will be just a series of questions that you will need to answer verbally to the one assisting you with these questions.
+    </p>
+  </div>
+</div>
 
-    <!-- Third card -->
+
+<br><br><br>
+ <!-- Second card -->
+    <div class="row my-4">
      <div class="col-4">
       <div class="card bg-dark text-center" style="width: 19rem;">
         <img src="{{ url_for('static', filename='images/technical.jpg') }}" height="270" width="302">
@@ -114,7 +112,35 @@
         </div>
       </div>
     </div>
+      <!-- Text (on the right) -->
+  <div class="col-md-8 d-flex align-items-center">
+    <p class="text-center">
+        Focus entirely on the technical
+    </p>
+  </div>
+  </div>
 
+<br><br><br>
+
+    <!-- Third card -->
+    <div class="row my-4">
+    <div class="col-4">
+      <div class="card bg-dark text-center" style="width: 19rem;">
+        <img src="{{ url_for('static', filename='images/everything.jpg') }}" height="270" width="302">
+        <div class="card-body">
+          <h5 class="card-title">ALL QUESTIONS</h5>
+          <p class="card-text">Jump in and do both technical and behavioral!</p>
+            <div align="center">
+              <a href="#" class="btn btn-primary">All Questions</a>
+            </div>
+        </div>
+      </div>
+    </div>
+        <!-- Text (on the right) -->
+  <div class="col-md-8 d-flex align-items-center">
+    <p class="text-center">
+        Or choose everything, everywhere, all at once
+    </p>
   </div>
 </div>
 
