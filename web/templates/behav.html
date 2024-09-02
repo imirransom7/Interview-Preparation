@@ -1,0 +1,23 @@
+{% extends 'index.html' %}
+{% block title %}Technical Questions{% endblock %}
+
+{% block header %}Tech Questions{% endblock %}
+
+{% block content %}
+
+<div class="card text-center">
+  <div class="card-header">
+    Featured
+  </div>
+  {% for question in questions %}
+  <div class="card-body">
+    <h5 class="card-title">{{question}}</h5>
+
+<!--    <a href="#" class="btn btn-primary">Go somewhere</a>-->
+  </div>
+<!--  <div class="card-footer text-body-secondary">-->
+<!--    2 days ago-->
+<!--  </div>-->
+</div>
+{% endfor %}
+{% endblock %}

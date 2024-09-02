@@ -5,4 +5,4 @@ behav = Blueprint('behav', __name__)
 
 @behav.route('/behav')
 def behavioral():
-    render_template('behav.html', questions=behavioral_questions['question'])
+    return render_template('behav.html', questions=behavioral_questions['question'])
