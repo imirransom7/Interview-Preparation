@@ -25,10 +25,12 @@ def create_app():
     # importing blueprints
     from .views import views
     from .tech import tech
+    from .behav import behav
 
     # registering blueprints
     app.register_blueprint(views, url_prefix='/')
     app.register_blueprint(tech, url_prefix='/')
+    app.register_blueprint(behav)
 
     with app.app_context():
         db.create_all()
