@@ -28,7 +28,7 @@ def create_app():
 
     # registering blueprints
     app.register_blueprint(views, url_prefix='/')
-    app.register_blueprint(tech)
+    app.register_blueprint(tech, url_prefix='/')
 
     with app.app_context():
         db.create_all()

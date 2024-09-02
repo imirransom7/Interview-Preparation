@@ -37,7 +37,7 @@ technical_questions = {
         'What are the different types of tests you are familiar with?',
         'Can you explain Kubernetes',
         'What is a Software Engineer?',
-        'What is a Data Engineer?'
+        'What is a Data Engineer?',
         'What is Architecture?'
     ],
     'answer': [
@@ -102,3 +102,5 @@ technical_questions = {
         'the design decisions and structure of a system, and how its components interact with each other'
     ]
 }
+
+print(technical_questions['question'])
