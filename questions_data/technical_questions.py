@@ -3,7 +3,7 @@ technical_questions = {
         0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
         10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
         20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30,
-        31
+        31, 32
            ],
     'question': [
         'What is Polymorphism?',
@@ -38,6 +38,7 @@ technical_questions = {
         'Can you explain Kubernetes',
         'What is a Software Engineer?',
         'What is a Data Engineer?'
+        'What is Architecture?'
     ],
     'answer': [
         'many forms;  methods/functions/operators with the same name that can be executed on many objects or classes\
@@ -97,6 +98,7 @@ technical_questions = {
         maintenance of software applications',
         'an IT professional who prepares data for use by business analysts and data scientists.  responsible for\
         designing, maintaining, and optimizing data infrastructure for data collection, management, transformation,\
-        and access'
+        and access',
+        'the design decisions and structure of a system, and how its components interact with each other'
     ]
 }
